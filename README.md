@@ -6,13 +6,15 @@ I like bmw cars because of their sporty look and comfort inside. I personally pr
 I took the data from kaagle. link to my data https://www.kaggle.com/mysarahmadbhat/bmw-used-car-listing
 
 ## how to run the script
-> clone down the repo
-> open the code in vs code which is popularly used. or you can run using powershell.
-> type the below commands to get the results. 
-> mapping
-''' cat bmw.csv | Python 02mapper.py > ArlaOutput01.txt
-> reducing
-''' cat bmw.csv | Python 02mapper.py | sort | Python 02reducer.py > ArlaOutput02.txt
+> 1.clone down the repo
+> 2.open the code in vs code which is popularly used. or you can run using powershell.
+> 3.type the below commands to get the results. 
+> mapping :
+
+``` cat bmw.csv | Python 02mapper.py > ArlaOutput01.txt
+> reducing:
+
+``` cat bmw.csv | Python 02mapper.py | sort | Python 02reducer.py > ArlaOutput02.txt
 ## Data problem
 I would like to get the number of cars sold in each bmw model.
 
