@@ -5,6 +5,15 @@ practice on mapping and reducing
 I like bmw cars because of their sporty look and comfort inside. I personally prefer to buy an used car rather than new car. So, I took data related to used bmw cars to know which model has the highest number of sales.
 I took the data from kaagle. link to my data https://www.kaggle.com/mysarahmadbhat/bmw-used-car-listing
 
+## how to run the script
+<li>
+  clone down the repo
+  open the code in vs code which is popularly used. or you can run using powershell.
+  type the below commands to get the results.
+  </li> 
+  
+''' cat bmw.csv | Python 02mapper.py > ArlaOutput01.txt
+''' cat bmw.csv | Python 02mapper.py | sort | Python 02reducer.py > ArlaOutput02.txt
 ## Data problem
 I would like to get the number of cars sold in each bmw model.
 
